@@ -1,0 +1,15 @@
+mixin button(props = {})
+  -
+    let state = {
+      text: props.text,
+      status: props.status,
+    }
+
+  button(type="button" class="o-button")
+    if state.status === 'pending'
+      span.o-loading
+        span.mq
+        span.mg
+        span.mq
+
+    span=state.text

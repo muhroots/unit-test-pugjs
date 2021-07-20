@@ -1,0 +1,22 @@
+{
+  "name": "unit-test-pugjs",
+  "version": "1.0.0",
+  "description": "unit test with pugjs component",
+  "scripts": {
+    "unit": "jest"
+  },
+  "jest": {
+    "verbose": true
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "jsdom": "^16.6.0",
+    "pug": "^3.0.2"
+  }
+}
