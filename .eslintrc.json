@@ -1,0 +1,49 @@
+{
+  "rules": {
+    "no-console": 0,
+    "no-underscore-dangle": 0,
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "no-unused-vars": ["error", { "argsIgnorePattern": "next" }],
+    "no-use-before-define": ["error", { "variables": false }],
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true, "optionalDependencies": false, "peerDependencies": false}],
+    "no-multi-str": 0,
+    "linebreak-style": ["error", "unix"],
+    "semi": [2, "never"],
+    "camelcase": 0,
+    "no-param-reassign": [2, { "props": false }],
+    "prefer-destructuring": [2, { "array": false, "object": false }],
+    "prettier/prettier": [
+      "error", {
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "es5"
+      }
+    ],
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/no-assigning-return-values": "error",
+    "cypress/assertion-before-screenshot": "warn"
+  },
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true,
+    "jquery": true,
+    "browser": true,
+    "cypress/globals": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:cypress/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "cypress",
+    "prettier"
+  ]
+}

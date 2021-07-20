@@ -1,0 +1,44 @@
+.cache
+v8-compile-cache-0
+v8-compile
+logs
+
+# Cypress
+cypress/accessibility.log
+
+# Covarage test
+coverage
+reports
+screenshots
+
+# Dependency directory
+node_modules
+bower_components
+middlewares/auth.middleware.js
+
+# API keys
+.env
+
+# Dependency directory
+node_modules
+bower_components
+package-lock.json
+yarn-error.log
+
+# Parceljs directory
+dev
+
+
+# Editors
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+.vscode
+
+santoro.txt
+mongodbdata
+
+newrelic_agent.log
