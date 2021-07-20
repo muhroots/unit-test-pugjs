@@ -1,8 +1,8 @@
-# Unit test (pugjs)
-create unit test for pugjs components
+# pug unit testing 
+create unit test for pug components
 
-## run test
 
+## Commands
 ```
 npm run unit
 ```
